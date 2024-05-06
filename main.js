@@ -1,6 +1,7 @@
 const fs = require("fs");
 
-const filePath = process.argv[2];
+// const filePath = process.argv[2];
+const filePath = "./test.txt";
 
 function readFileAsync(filePath) {
   return new Promise((resolve, reject) => {
